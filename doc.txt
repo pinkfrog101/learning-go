@@ -1,0 +1,6 @@
+1. Every go program is made up of packages.
+2. first package is main( where code runs)
+3. go build xyz.go compiles source code and depedencies into an executable binary code
+4. types are - bool , string , int (int  int8  int16  int32  int64),
+ uint(uint uint8 uint16 uint32 uint64 uintptr - plain number to hold memory addrerss(unlike int* pointer)) - for bit manipulation , 
+byte - alias to uint8 , rune - alias to int32 , float32 float64 , complex64 complex128 . 
