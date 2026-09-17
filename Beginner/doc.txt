@@ -4,3 +4,6 @@
 4. types are - bool , string , int (int  int8  int16  int32  int64),
  uint(uint uint8 uint16 uint32 uint64 uintptr - plain number to hold memory addrerss(unlike int* pointer)) - for bit manipulation , 
 byte - alias to uint8 , rune - alias to int32 , float32 float64 , complex64 complex128 . 
+5. tpe conversion type(var) - converts var into mentioned type - needs explicit conversion implicit isnt done.
+6. type inference - var i int j:= i // then j is inferred as int 
+7. const - like var but constant (can not be defined by :=)
