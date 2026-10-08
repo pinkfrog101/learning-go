@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 type Vertex struct {
+	//collection of fields
 	X int
 	Y int
 }
